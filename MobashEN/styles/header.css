@@ -1,0 +1,19 @@
+
+.header-nav-link{
+    color: #000;
+    border-bottom: 2px solid #fff;
+    transition: all 0.6s;
+    font-family: 'iranyekanwebmedium';
+    
+}
+.header-nav-active-link{
+    border-bottom: solid 2px #654fef;
+    color: #654fef;
+    transition: all 0.6s;
+    font-family: 'iranyekanwebmedium'
+}
+.header-nav-link:hover , .header-nav-active-link:hover{
+    color: #654fef;
+    border-bottom: #654fef 2px solid;
+    transform: translateX(-5px);
+}
